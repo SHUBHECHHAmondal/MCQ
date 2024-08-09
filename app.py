@@ -42,7 +42,7 @@ def generate_mcqs(text, num_questions=5):
         nouns = [token.text for token in sent_doc if token.pos_ == "NOUN"]
 
         # Ensure there are enough nouns to generate MCQs
-        if len(nouns) < 2:
+        if len(nouns) < 3:
             continue
 
         # Count the occurrence of each noun
