@@ -45,10 +45,10 @@ pip package manager
    cd mcq-generator
 
 2. Install the required dependencies:  
-   pip install Flask
-   pip install Flask-Bootstrap
-   pip install spacy
-   pip install PyPDF2
+   pip install Flask  
+   pip install Flask-Bootstrap  
+   pip install spacy  
+   pip install PyPDF2  
 
 3. Download spaCy's English language model:  
    python -m spacy download en_core_web_sm  
