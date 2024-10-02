@@ -39,24 +39,24 @@ pip package manager
 
 ### INSTALLATION
 
-Clone the repository:  
-git clone https://github.com/your-username/mcq-generator.git  
-cd mcq-generator
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/mcq-generator.git
+   cd mcq-generator
 
+2. Install the required dependencies:  
+   pip install Flask
+   pip install Flask-Bootstrap
+   pip install spacy
+   pip install PyPDF2
 
-Install the required dependencies:  
-pip install Flask  
-pip install Flask-Bootstrap  
-pip install spacy  
-pip install PyPDF2  
+3. Download spaCy's English language model:  
+   python -m spacy download en_core_web_sm  
 
-Download spaCy's English language model:  
-python -m spacy download en_core_web_sm  
+4. Run the Flask application:  
+   python app.py  
 
-Run the Flask application:  
-python app.py  
-
-Open the app in your web browser
+5. Open the app in your web browser
 
 ## Usage
 
