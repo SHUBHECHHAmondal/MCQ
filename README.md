@@ -67,6 +67,11 @@ Open the app in your web browser
 
 ## EXAMPLE
 
+<img width="881" alt="mcq1" src="https://github.com/user-attachments/assets/f4c37aee-aafe-4e42-b10b-d0b3226973a1">
+
+<img width="920" alt="mcq2" src="https://github.com/user-attachments/assets/681bf878-77eb-44c1-9690-e709186f7141">
+
+
 
 
 
