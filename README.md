@@ -23,9 +23,9 @@ PyPDF2: Library used to extract text from PDF files.
 ### Input: 
 The user can upload one or more text or PDF files or manually input text.
 ### Processing:
-The uploaded text is processed with spaCy to extract sentences.
-Nouns from the sentences are identified as potential answers.
-For each question, the most common noun is replaced with a blank and answer choices are generated, including distractors.
+The uploaded text is processed with spaCy to extract sentences.  
+Nouns from the sentences are identified as potential answers.  
+For each question, the most common noun is replaced with a blank and answer choices are generated, including distractors.  
 ### Output:
 The app generates a specified number of MCQs and displays them with the correct answer and options shuffled.
 
@@ -34,36 +34,36 @@ The app generates a specified number of MCQs and displays them with the correct 
 To run the project locally, follow these steps:
 
 ### Prerequisites
-Python 3.x
+Python 3.x  
 pip package manager
 
 ### INSTALLATION
 
-Clone the repository:
-git clone https://github.com/your-username/mcq-generator.git
+Clone the repository:  
+git clone https://github.com/your-username/mcq-generator.git  
 cd mcq-generator
 
 
-Install the required dependencies:
-pip install Flask
-pip install Flask-Bootstrap
-pip install spacy
-pip install PyPDF2
+Install the required dependencies:  
+pip install Flask  
+pip install Flask-Bootstrap  
+pip install spacy  
+pip install PyPDF2  
 
-Download spaCy's English language model:
-python -m spacy download en_core_web_sm
+Download spaCy's English language model:  
+python -m spacy download en_core_web_sm  
 
-Run the Flask application:
-python app.py
+Run the Flask application:  
+python app.py  
 
 Open the app in your web browser
 
 ## Usage
 
-1.On the homepage, upload your text or PDF files or manually input text.
-2.Choose the number of questions you want to generate.
-3.Click "Generate MCQs" to create the questions.
-4.View the generated MCQs with the correct answers.
+1.On the homepage, upload your text or PDF files or manually input text.  
+2.Choose the number of questions you want to generate.  
+3.Click "Generate MCQs" to create the questions.  
+4.View the generated MCQs with the correct answers.  
 
 ## EXAMPLE
 
