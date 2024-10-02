@@ -6,11 +6,11 @@ My project aims to generate multiple-choice questions (MCQs) using machine learn
 
 ## FEATURES
 
-1.Upload PDF or text files for processing.
-2.Automatically generate MCQs from text using spaCy for natural language processing.
-3.Customize the number of MCQs generated.
-4.User-friendly interface built with Flask and Bootstrap.
-5.Generates answer choices with distractors.
+1. Upload PDF or text files for processing.  
+2. Automatically generate MCQs from text using spaCy for natural language processing.  
+3. Customize the number of MCQs generated.  
+4. User-friendly interface built with Flask and Bootstrap.  
+5. Generates answer choices with distractors.  
 
 ## TECHNOLOGIES USED
 
