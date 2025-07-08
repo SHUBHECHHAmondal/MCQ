@@ -67,5 +67,6 @@ This project is an AI-powered tool that generates multiple-choice questions (MCQ
 ### EXAMPLES
 
 ![image alt](https://github.com/SHUBHECHHAmondal/MCQ/blob/e1131db9a49d31741b3b1d0dbc138e75edf5fdb4/Screenshot%202025-07-08%20213016.png)
+![image alt](https://github.com/SHUBHECHHAmondal/MCQ/blob/e6dafd8051213ce922e10d145ce4f2394666b79b/Screenshot%202025-07-08%20214123.png)
 
 
