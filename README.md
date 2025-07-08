@@ -1,79 +1,70 @@
-# Question-MCQS-Generator-Using-Machine-learning-NLP
+# 📘 Question-MCQs-Generator-Using-GenAI
 
-## INTRODUCTION
+## 🧠 Introduction
 
-My project aims to generate multiple-choice questions (MCQs) using machine learning and natural language processing (NLP) techniques. MCQs are widely used in educational assessments to evaluate students' understanding of a given topic. By automating the generation of MCQs, educators can save time and effort while ensuring the quality and relevance of the questions.
+This project is an AI-powered tool that generates multiple-choice questions (MCQs) from uploaded PDFs or text inputs using **OpenAI GPT-4**, **LangChain**, and **Streamlit**. MCQs are essential for learning and assessment. By automating their generation using GenAI, this tool enables educators and learners to quickly generate relevant, context-based questions from any textual content, including research papers and study material.
 
-## FEATURES
+---
 
-1. Upload PDF or text files for processing.  
-2. Automatically generate MCQs from text using spaCy for natural language processing.  
-3. Customize the number of MCQs generated.  
-4. User-friendly interface built with Flask and Bootstrap.  
-5. Generates answer choices with distractors.  
+## ✨ Features
 
-## TECHNOLOGIES USED
+1. Upload **PDF** or enter **custom text** for MCQ generation.  
+2. Generate context-aware MCQs using **OpenAI GPT-4** with **LangChain**.  
+3. Customize the number of questions you want to generate.  
+4. Interactive and responsive UI built using **Streamlit**.  
+5. Processes and handles multi-page PDFs using **PyPDF2**.  
 
-Flask: Web framework used to handle routing, file uploads, and rendering templates.
-spaCy: NLP library used for text processing, sentence extraction, and noun detection.
-PyPDF2: Library used to extract text from PDF files.
+---
 
-## HOW IT WORKS
+## ⚙️ Technologies Used
 
-### Input: 
-The user can upload one or more text or PDF files or manually input text.
-### Processing:
-The uploaded text is processed with spaCy to extract sentences.  
-Nouns from the sentences are identified as potential answers.  
-For each question, the most common noun is replaced with a blank and answer choices are generated, including distractors.  
-### Output:
-The app generates a specified number of MCQs and displays them with the correct answer and options shuffled.
+- **Streamlit** – Web app interface for user interaction and display.  
+- **OpenAI GPT-4** – Language model used for question and option generation.  
+- **LangChain** – Framework for prompt handling, chaining, and RAG pipeline integration.  
+- **PyPDF2** – Extracts raw text content from uploaded PDF files.  
+- **dotenv** – Securely manages API keys and environment variables.
 
-## SETUP
+---
 
-To run the project locally, follow these steps:
+## 🚀 How It Works
 
-### Prerequisites
-Python 3.x  
-pip package manager
+### 📥 Input:
+- Upload a **text-based PDF** file as input.
+- Specify the number of MCQs to be generated.
 
-### INSTALLATION
+### ⚙️ Processing:
+- Text is extracted from the uploaded PDF using **PyPDF2**.
+- Text is split into manageable chunks via **LangChain text splitters**.
+- Questions and options are generated using **OpenAI GPT-4** via a custom prompt in a **LangChain LLMChain**.
 
-1. Clone the repository:
+### 📤 Output:
+- The app displays the generated MCQs with 4 options (A–D), the correct answer, and explanation.
+- All results are shown in real-time via the Streamlit web interface.
+
+---
+
+## 🛠️ Setup Instructions
+
+### ✅ Prerequisites
+
+- Python 3.x  
+- OpenAI API Key
+
+### 📦 Installation
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/mcq-generator.git
    cd mcq-generator
+2. **Set your OpenAI API key**:  
+   Create a `.env` file in the project root and add the following line:
+   ```ini
+   OPENAI_API_KEY=your_openai_api_key_here
+3. * Run the Streamlit app**:
+     ```ini
+     streamlit run app.py
 
-2. Install the required dependencies:  
-   pip install Flask  
-   pip install Flask-Bootstrap  
-   pip install spacy  
-   pip install PyPDF2  
-
-3. Download spaCy's English language model:  
-   python -m spacy download en_core_web_sm  
-
-4. Run the Flask application:  
-   python app.py  
-
-5. Open the app in your web browser
-
-## Usage
-
-1.On the homepage, upload your text or PDF files or manually input text.  
-2.Choose the number of questions you want to generate.  
-3.Click "Generate MCQs" to create the questions.  
-4.View the generated MCQs with the correct answers.  
-
-## EXAMPLE
-
-<img width="881" alt="mcq1" src="https://github.com/user-attachments/assets/f4c37aee-aafe-4e42-b10b-d0b3226973a1">
-
-<img width="920" alt="mcq2" src="https://github.com/user-attachments/assets/681bf878-77eb-44c1-9690-e709186f7141">
-
-
-
-
+### EXAMPLES
 
 
 
