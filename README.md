@@ -63,8 +63,9 @@ This project is an AI-powered tool that generates multiple-choice questions (MCQ
 3. * Run the Streamlit app**:
      ```ini
      streamlit run app.py
-
+---
 ### EXAMPLES
 
+![image alt](https://github.com/SHUBHECHHAmondal/MCQ/blob/e1131db9a49d31741b3b1d0dbc138e75edf5fdb4/Screenshot%202025-07-08%20213016.png)
 
 
